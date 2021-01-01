@@ -1,3 +1,4 @@
+// Callback simple
 function sum(num1,num2){
     return num1 + num2
 }
@@ -8,6 +9,7 @@ function calc(num1, num2, callback){
 
 console.log(sum(2,2,sum))
 
+// Callback con manejo de SetTimeout
 function date(callback){
     console.log(new Date);
     setTimeout(function(){
